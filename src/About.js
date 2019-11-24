@@ -45,7 +45,7 @@ class About extends Component{
                             <li> <h4>Corporate API</h4>
                                 <ul>
                                     <li>
-                                        More parctice using API requests. This time using the <a href="https://github.com/sameerkumar18/corporate-bs-generator-api/">Corporate Bullshit/Buzzword Generator API</a>
+                                        More parctice using API requests. This time using the <a href="https://github.com/sameerkumar18/corporate-bs-generator-api/">Corporate Buzzword Generator API</a>
                                     </li>
                                 </ul>
                             </li>

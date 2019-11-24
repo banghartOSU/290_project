@@ -26,10 +26,10 @@ class Corporate extends Component{
         <div>
             <div className="backgroundStyle">
                 <div className="innerNum">
-                    <Button variant onClick={this.handleSubmit}>Gimmie some more</Button>
+                    <Button variant="primary" onClick={this.handleSubmit}>Gimmie some jive</Button>
                 </div>
                 <div>
-                {this.state.resp.phrase}
+                        <h3>{this.state.resp.phrase}</h3>
                 </div>
             </div>
         </div>
