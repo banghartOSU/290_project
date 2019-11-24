@@ -44,7 +44,7 @@ function ControlledCarousel() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <Link to='/numbers'>
+                <Link to='/corporate'>
                 <img
                     className="d-block w-100"
                     src={require('./images/math.jpg')}
@@ -52,7 +52,7 @@ function ControlledCarousel() {
                 />
                  </Link>
                 <Carousel.Caption>
-                        <h3 style={{ color: "white" }}>Numbers API</h3>
+                        <h3 style={{ color: "white" }}>Corporate jive</h3>
                         <p style={{ color: "white" }}>Fun with random number facts</p>
                 </Carousel.Caption>
             </Carousel.Item>

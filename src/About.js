@@ -42,10 +42,10 @@ class About extends Component{
                                 </ul>
                             </li>
                             <br></br>
-                            <li> <h4>Number API</h4>
+                            <li> <h4>Corporate API</h4>
                                 <ul>
                                     <li>
-                                        More parctice using API requests. This time using the <a href="http://numbersapi.com/">Numbers API.</a>
+                                        More parctice using API requests. This time using the <a href="https://github.com/sameerkumar18/corporate-bs-generator-api/">Corporate Bullshit/Buzzword Generator API</a>
                                     </li>
                                 </ul>
                             </li>

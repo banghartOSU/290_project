@@ -7,7 +7,7 @@ import Articles from './Articles.js';
 import MetMuseum  from './MetMuseum.js'
 import About from './About.js';
 import './App.css';
-import Numbers from './numbers';
+import Corporate from './Corporate.js';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                   <NavDropdown.Item href="/metmuseum">The Met</NavDropdown.Item>
                   <NavDropdown.Item href="/article">Postmodern Article</NavDropdown.Item>
-                  <NavDropdown.Item href="/numbers">Number API</NavDropdown.Item>
+                  <NavDropdown.Item href="/corporate">Corporate jive</NavDropdown.Item>
                   <NavDropdown.Divider />
                 <NavDropdown.Item href={require('./images/Banghart_Resume.pdf')} download>Download Resume</NavDropdown.Item>
                 <NavDropdown.Item href="https://github.com/banghartOSU">Github</NavDropdown.Item>
@@ -38,7 +38,7 @@ function App() {
           <Route path="/article" component={Articles} />
           <Route path="/about" component={About} />
           <Route path="/metmuseum" component={MetMuseum} />
-          <Route path="/numbers" component={Numbers} />
+          <Route path="/corporate" component={Corporate} />
     </div>
 
     </BrowserRouter>
